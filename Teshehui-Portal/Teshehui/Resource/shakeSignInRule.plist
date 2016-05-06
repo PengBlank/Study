@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>签到规则</string>
+	<string>1.每天摇一摇签到领取1~30元现金券，连续签到获赠神秘惊喜，若签到中断了一天，则重新开始累积签到次数。</string>
+	<string>2.每个特奢汇账号每天仅能签到一次，对于任何不正当手段参与活动者，特奢汇有权取消活动资格。</string>
+	<string>3.活动最终解释权归特奢汇所有。</string>
+</array>
+</plist>

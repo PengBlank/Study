@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BuyDrinksID" id="KGk-i7-Jjw" customClass="HYBuyDrinksTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4m-4d-JI0">
+                        <rect key="frame" x="164" y="8" width="148" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单编号：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIK-67-XPW">
+                        <rect key="frame" x="15" y="8" width="149" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GIK-67-XPW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="3BX-dR-ASY"/>
+                    <constraint firstAttribute="bottom" secondItem="S4m-4d-JI0" secondAttribute="bottom" constant="8" id="Tey-sL-jhY"/>
+                    <constraint firstAttribute="trailing" secondItem="S4m-4d-JI0" secondAttribute="trailing" constant="8" id="WdY-fW-CWe"/>
+                    <constraint firstItem="S4m-4d-JI0" firstAttribute="width" secondItem="GIK-67-XPW" secondAttribute="width" id="bBZ-Gg-LCu"/>
+                    <constraint firstItem="S4m-4d-JI0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="cGS-Pj-jZy"/>
+                    <constraint firstItem="S4m-4d-JI0" firstAttribute="leading" secondItem="GIK-67-XPW" secondAttribute="trailing" id="kg2-Fm-m2W"/>
+                    <constraint firstItem="S4m-4d-JI0" firstAttribute="leading" secondItem="GIK-67-XPW" secondAttribute="trailing" id="l8o-9D-Wc5"/>
+                    <constraint firstAttribute="bottom" secondItem="GIK-67-XPW" secondAttribute="bottom" constant="8" id="sLZ-1x-xnh"/>
+                    <constraint firstItem="GIK-67-XPW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="vkI-8A-AXK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="left" destination="GIK-67-XPW" id="rpG-6p-81Y"/>
+                <outlet property="right" destination="S4m-4d-JI0" id="nb6-TK-Ff9"/>
+            </connections>
+            <point key="canvasLocation" x="644" y="359"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,320 @@
+//
+//  HYBrandSummary.h
+//  Teshehui
+//
+//  Created by 成才 向 on 15/9/4.
+//  Copyright (c) 2015年 HY.Inc. All rights reserved.
+//
+
+#import "JSONModel.h"
+
+@protocol HYBrandItem @end
+
+@interface HYBrandItem : JSONModel
+
+@property (nonatomic, copy) NSString *code;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *showOrder;
+
+@end
+
+@interface HYBrandSummary : JSONModel
+
+@property (nonatomic, copy) NSString *attributeName;
+@property (nonatomic, copy) NSString *showOrder;
+
+@property (nonatomic, strong) NSArray<HYBrandItem> *productAttibuteArray;
+@property (nonatomic, strong) NSArray<HYBrandItem> *selectedProductAttributeArray;
+
+@end
+
+/*
+"brandAttribute":{
+    "attributeName":"品牌",
+    "showOrder":2147483647,
+    "productAttibuteArray":[
+                            {
+                                "code":"CN04670",
+                                "name":"L'alpina",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04477",
+                                "name":"诺拉德",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04953",
+                                "name":"欧酷卡",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN05005",
+                                "name":"特兰恩",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN05008",
+                                "name":"天丽",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"IT04156",
+                                "name":"noidinotte",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04522",
+                                "name":"森泊",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04685",
+                                "name":"CASMELY",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04838",
+                                "name":"菲拉格慕",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"IT04272",
+                                "name":"法比亚",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"IT04296",
+                                "name":"格拉齐亚",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04495",
+                                "name":"其他",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04688",
+                                "name":"D8",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04998",
+                                "name":"素乐",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"IT04533",
+                                "name":"圣吉美尼",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"NL04280",
+                                "name":"飞利浦",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04684",
+                                "name":"CapodiMonte Ginori",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04865",
+                                "name":"皓齿",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN05073",
+                                "name":"智仕玛",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"GB04236",
+                                "name":"博柏利",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"IT04594",
+                                "name":"雾仙浓",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04768",
+                                "name":"芭比",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04769",
+                                "name":"芭莎米蓝",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04808",
+                                "name":"大恒",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04894",
+                                "name":"婧麒",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"CN04971",
+                                "name":"趣玩",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"IT04277",
+                                "name":"范思哲",
+                                "showOrder":0
+                            },
+                            {
+                                "code":"US04446",
+                                "name":"美亚",
+                                "showOrder":0
+                            }
+                            ],
+    "selectedProductAttributeArray":[
+                                     {
+                                         "code":"CN04670",
+                                         "name":"L'alpina",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04477",
+                                         "name":"诺拉德",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04953",
+                                         "name":"欧酷卡",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN05005",
+                                         "name":"特兰恩",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN05008",
+                                         "name":"天丽",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"IT04156",
+                                         "name":"noidinotte",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04522",
+                                         "name":"森泊",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04685",
+                                         "name":"CASMELY",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04838",
+                                         "name":"菲拉格慕",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"IT04272",
+                                         "name":"法比亚",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"IT04296",
+                                         "name":"格拉齐亚",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04495",
+                                         "name":"其他",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04688",
+                                         "name":"D8",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04998",
+                                         "name":"素乐",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"IT04533",
+                                         "name":"圣吉美尼",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"NL04280",
+                                         "name":"飞利浦",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04684",
+                                         "name":"CapodiMonte Ginori",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04865",
+                                         "name":"皓齿",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN05073",
+                                         "name":"智仕玛",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"GB04236",
+                                         "name":"博柏利",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"IT04594",
+                                         "name":"雾仙浓",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04768",
+                                         "name":"芭比",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04769",
+                                         "name":"芭莎米蓝",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04808",
+                                         "name":"大恒",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04894",
+                                         "name":"婧麒",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"CN04971",
+                                         "name":"趣玩",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"IT04277",
+                                         "name":"范思哲",
+                                         "showOrder":0
+                                     },
+                                     {
+                                         "code":"US04446",
+                                         "name":"美亚",
+                                         "showOrder":0
+                                     }
+                                     ]
+},
+*/

@@ -1,0 +1,15 @@
+//
+//  HYCardActiveTwoResponse.h
+//  Teshehui
+//
+//  Created by apple on 15/4/8.
+//  Copyright (c) 2015年 HY.Inc. All rights reserved.
+//
+
+#import "CQBaseResponse.h"
+
+@interface HYCardActiveTwoResponse : CQBaseResponse
+
+@property (nonatomic, strong) NSString *checkCode;
+
+@end

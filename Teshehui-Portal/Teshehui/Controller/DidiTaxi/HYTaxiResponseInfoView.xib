@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HYTaxiResponseInfoView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taxi_photo.png" translatesAutoresizingMaskIntoConstraints="NO" id="gS0-5j-1TG">
+                    <rect key="frame" x="8" y="21" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="4RW-jR-Gdh"/>
+                        <constraint firstAttribute="width" constant="55" id="lQ4-oq-Y5U"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgh-CU-XE0">
+                    <rect key="frame" x="257" y="21" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="JYp-8M-sRP"/>
+                        <constraint firstAttribute="height" constant="55" id="Nnz-ap-HXr"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="taxi_phone.png"/>
+                    <connections>
+                        <action selector="phoneAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="ywj-vG-fLB"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="钟师傅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sr4-WK-coS">
+                    <rect key="frame" x="79" y="17" width="162" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4W6-z8-uja">
+                    <rect key="frame" x="79" y="41" width="162" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.70000000000000007" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.8" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBb-cJ-CaA">
+                    <rect key="frame" x="150" y="66" width="22" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="48单" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2L-hn-D8R">
+                    <rect key="frame" x="180" y="66" width="34" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gS0-5j-1TG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="1Ti-20-Gru"/>
+                <constraint firstItem="A2L-hn-D8R" firstAttribute="top" secondItem="4W6-z8-uja" secondAttribute="bottom" constant="7" id="Bob-wG-ceS"/>
+                <constraint firstAttribute="trailing" secondItem="kgh-CU-XE0" secondAttribute="trailing" constant="8" id="Dxq-IP-d1E"/>
+                <constraint firstItem="kgh-CU-XE0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="21" id="FBy-yS-JvG"/>
+                <constraint firstItem="kgh-CU-XE0" firstAttribute="leading" secondItem="4W6-z8-uja" secondAttribute="trailing" constant="16" id="FNh-fe-fjY"/>
+                <constraint firstItem="Sr4-WK-coS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="17" id="Kjx-fY-5YC"/>
+                <constraint firstItem="gS0-5j-1TG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="21" id="Xpy-F8-cq4"/>
+                <constraint firstItem="4W6-z8-uja" firstAttribute="leading" secondItem="gS0-5j-1TG" secondAttribute="trailing" constant="16" id="bxc-94-cf5"/>
+                <constraint firstItem="kgh-CU-XE0" firstAttribute="leading" secondItem="Sr4-WK-coS" secondAttribute="trailing" constant="16" id="div-Oz-s8l"/>
+                <constraint firstItem="A2L-hn-D8R" firstAttribute="leading" secondItem="yBb-cJ-CaA" secondAttribute="trailing" constant="8" id="eRC-x3-CBu"/>
+                <constraint firstItem="yBb-cJ-CaA" firstAttribute="top" secondItem="4W6-z8-uja" secondAttribute="bottom" constant="7" id="mDF-6I-NXA"/>
+                <constraint firstItem="4W6-z8-uja" firstAttribute="top" secondItem="Sr4-WK-coS" secondAttribute="bottom" constant="4" id="nxg-KT-py1"/>
+                <constraint firstItem="yBb-cJ-CaA" firstAttribute="leading" secondItem="4W6-z8-uja" secondAttribute="leading" constant="71" id="uab-83-C5Z"/>
+                <constraint firstItem="Sr4-WK-coS" firstAttribute="leading" secondItem="gS0-5j-1TG" secondAttribute="trailing" constant="16" id="ufa-lv-FAT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="_car" destination="4W6-z8-uja" id="1uy-7C-M2k"/>
+                <outlet property="_name" destination="Sr4-WK-coS" id="dun-Ri-Sjv"/>
+                <outlet property="_orderCount" destination="A2L-hn-D8R" id="kdf-kS-uMG"/>
+                <outlet property="_photo" destination="gS0-5j-1TG" id="JkV-Rp-bc3"/>
+                <outlet property="_score" destination="yBb-cJ-CaA" id="RnE-q7-erH"/>
+            </connections>
+            <point key="canvasLocation" x="426" y="172"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="taxi_phone.png" width="40" height="40"/>
+        <image name="taxi_photo.png" width="47" height="47"/>
+    </resources>
+</document>

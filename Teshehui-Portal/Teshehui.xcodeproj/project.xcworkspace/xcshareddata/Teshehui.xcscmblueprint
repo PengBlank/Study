@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3ac26477-5f9c-49da-af53-095e86420236++5326",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3ac26477-5f9c-49da-af53-095e86420236++5326" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3ac26477-5f9c-49da-af53-095e86420236++5326" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "17E37C27-F30C-4D3A-8FDB-F71F4C9F6F9C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3ac26477-5f9c-49da-af53-095e86420236++5326" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Teshehui",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/Teshehui-Portal\/Teshehui.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.87\/app",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3ac26477-5f9c-49da-af53-095e86420236++5326"
+    }
+  ]
+}

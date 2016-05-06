@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SceneConsumDetailTabButtonsController">
+            <connections>
+                <outlet property="bntShare" destination="1Jc-ut-bhu" id="E0o-C8-5Ck"/>
+                <outlet property="btnBookNow" destination="Xse-zO-aeL" id="5GZ-ap-LKy"/>
+                <outlet property="btnLick" destination="0gY-DU-jVz" id="Zg4-PI-JzR"/>
+                <outlet property="btnPhone" destination="scB-Fr-8cH" id="h9h-o0-5fm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gY-DU-jVz" userLabel="点赞">
+                    <rect key="frame" x="0.0" y="0.0" width="83" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="WM1-fu-rrw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <state key="normal" image="iconfont-good-big.png">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="iconfont-good-smallred.png">
+                        <color key="titleColor" red="0.72156862749999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="iconfont-good-small.png"/>
+                    <connections>
+                        <action selector="btnLickClick:" destination="-1" eventType="touchUpInside" id="JH1-WV-S0p"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scB-Fr-8cH" userLabel="电话">
+                    <rect key="frame" x="83" y="0.0" width="83" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="qTL-LG-BeF"/>
+                    </constraints>
+                    <state key="normal" image="ico_telephone.png"/>
+                    <state key="highlighted" image="ico_telephonehl.png"/>
+                    <connections>
+                        <action selector="btnCallClick:" destination="-1" eventType="touchUpInside" id="F53-3m-8Mm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jc-ut-bhu" userLabel="分享">
+                    <rect key="frame" x="166" y="0.0" width="83" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="MHN-QE-2j9"/>
+                    </constraints>
+                    <state key="normal" image="btn_sharegrey.png"/>
+                    <state key="highlighted" image="btn_sharegreyhl.png"/>
+                    <connections>
+                        <action selector="btnShareClick:" destination="-1" eventType="touchUpInside" id="Fpl-qk-g6q"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQ7-Si-bz5" userLabel="line">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="Uk7-iK-UWC"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xse-zO-aeL">
+                    <rect key="frame" x="249" y="0.0" width="126" height="50"/>
+                    <color key="backgroundColor" red="0.72156862749999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="VNi-4P-4hY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="立即购买">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="disabled" title="已下架"/>
+                    <connections>
+                        <action selector="btnBookNowClick:" destination="-1" eventType="touchUpInside" id="1Oh-eq-VZP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.19215686269999999" green="0.4941176471" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="scB-Fr-8cH" firstAttribute="leading" secondItem="0gY-DU-jVz" secondAttribute="trailing" id="4OC-hO-JlC"/>
+                <constraint firstItem="0gY-DU-jVz" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="83:375" id="6C0-4d-Qon"/>
+                <constraint firstItem="1Jc-ut-bhu" firstAttribute="leading" secondItem="scB-Fr-8cH" secondAttribute="trailing" id="6em-yq-w4h"/>
+                <constraint firstItem="0gY-DU-jVz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7ft-xa-wQw"/>
+                <constraint firstItem="1Jc-ut-bhu" firstAttribute="width" secondItem="scB-Fr-8cH" secondAttribute="width" id="8Ta-yP-5x3"/>
+                <constraint firstItem="1Jc-ut-bhu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="C7Y-ne-Daq"/>
+                <constraint firstItem="scB-Fr-8cH" firstAttribute="width" secondItem="0gY-DU-jVz" secondAttribute="width" id="Gq4-s9-2wx"/>
+                <constraint firstAttribute="trailing" secondItem="Xse-zO-aeL" secondAttribute="trailing" id="GyD-6M-mTD"/>
+                <constraint firstItem="eQ7-Si-bz5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Hhh-VW-4fp"/>
+                <constraint firstItem="scB-Fr-8cH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ITW-z3-Ozv"/>
+                <constraint firstItem="Xse-zO-aeL" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="126:375" id="UBX-vu-PKG"/>
+                <constraint firstAttribute="trailing" secondItem="eQ7-Si-bz5" secondAttribute="trailing" id="dC5-As-W3a"/>
+                <constraint firstItem="eQ7-Si-bz5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mbn-Jm-QTu"/>
+                <constraint firstItem="0gY-DU-jVz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="o7D-PS-d3M"/>
+                <constraint firstItem="Xse-zO-aeL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="u96-Oy-bwj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-0.5" y="0.0"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_sharegrey.png" width="19" height="21"/>
+        <image name="btn_sharegreyhl.png" width="19" height="21"/>
+        <image name="ico_telephone.png" width="20" height="20"/>
+        <image name="ico_telephonehl.png" width="20" height="20"/>
+        <image name="iconfont-good-big.png" width="21" height="21"/>
+        <image name="iconfont-good-small.png" width="19" height="18"/>
+        <image name="iconfont-good-smallred.png" width="19" height="18"/>
+    </resources>
+</document>

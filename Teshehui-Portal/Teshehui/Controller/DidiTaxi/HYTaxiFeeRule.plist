@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>carTypeName</key>
+		<string>普通型</string>
+		<key>startPrice</key>
+		<integer>0</integer>
+		<key>normalUnitPrice</key>
+		<real>2.7</real>
+	</dict>
+	<dict>
+		<key>carTypeName</key>
+		<string>舒适型</string>
+		<key>startPrice</key>
+		<integer>10</integer>
+		<key>normalUnitPrice</key>
+		<real>2.7</real>
+	</dict>
+	<dict>
+		<key>carTypeName</key>
+		<string>商务型</string>
+		<key>startPrice</key>
+		<integer>14</integer>
+		<key>normalUnitPrice</key>
+		<real>3.8</real>
+	</dict>
+	<dict>
+		<key>carTypeName</key>
+		<string>豪华型</string>
+		<key>startPrice</key>
+		<integer>18</integer>
+		<key>normalUnitPrice</key>
+		<real>3.9</real>
+	</dict>
+	<dict>
+		<key>carTypeName</key>
+		<string>优选型</string>
+		<key>startPrice</key>
+		<integer>12</integer>
+		<key>normalUnitPrice</key>
+		<real>2.4</real>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,231 @@
+/*
+ Localizable.strings
+ Teshehui
+ 
+ Created by 回亿资本 on 14-2-8.
+ Copyright (c) 2014年 HY.Inc. All rights reserved.
+ */
+"hotel" = "酒店";
+"search" = "查询";
+"city" = "城市";
+"hotelCheckIn" = "入住";
+"hotelChechOut" = "离店";
+"keyword" = "关键字";
+"price_star" = "价格/星级";
+"search_near_hotel" = "查询我附近的酒店";
+"hotel_local_name" = "位置/品牌/酒店名";
+"filter" = "筛选";
+"sort" = "排序";
+"location" = "区域位置";
+"distance" = "距离";
+"service" = "配套服务";
+"business_areas" = "商业区";
+"administrative_area" = "行政区";
+"price" = "价格";
+"star" = "星级";
+"unlimited" = "不限";
+"done" = "确定";
+"tips" = "提示";
+"hotel_city_null" = "请选择城市";
+"def_sort" = "默认排序";
+"hotel_detail" = "酒店详情";
+"check_map" = "查看地图";
+"check_info" = "查看详情";
+"modify" = "修改";
+"reserve" = "预订";
+"area" = "面积";
+"member" = "可住";
+"floor" = "楼层";
+"roomsize" = "床型";
+"nosmoking" = "无烟";
+"internet" = "宽带";
+"addbed_price" = "加床价";
+"hotel_info" = "酒店详情";
+"hotel_service" = "酒店设施";
+"traffic_info" = "交通信息";
+"hotel_Introduction" = "酒店介绍";
+"hotel_review" = "酒店点评";
+"health" = "卫生";
+"device" = "设施";
+"service" = "服务";
+"environment" = "环境";
+"hotel_user" = "入住人";
+"contact" = "联系人";
+"arrival_time" = "到店时间";
+"special_request" = "特殊要求";
+"contacts" = "联系人";
+"phone" = "手机";
+"name" = "姓名";
+"use_recv_sms"= "用于接收短信";
+"hotel_placeholder1" = "姓名，每间房只需要填写1人";
+"hotel_order_fill" = "订单填写";
+"next" = "下一步";
+"guarantee" = "担保";
+"submit_order" = "提交订单";
+"cancel" = "取消";
+"bank_info" = "发卡银行";
+"select_bank_info" = "选择发卡银行";
+"help" = "帮助";
+"card_valid_date" = "信用卡有效期说明";
+"hotel_list" = "酒店列表";
+"hotel_order_result" = "订单结果";
+"order_info" = "订单信息";
+"order_stauts" = "订单状态";
+"order_NO" = "订单编号";
+"order_date" = "预定日期";
+"pay_type" = "支付方式";
+"guarantee_info" = "担保情况";
+"other_info" = "其他信息";
+"order_detail_info" = "订单详情";
+"delete" = "删除";
+"payment" = "立即支付";
+"Release_to_refresh" = "松开即可刷新...";
+"Last_updated" = "最后更新";
+"Fill in the Contact1" = "填写联系信息";
+"Fill in the Contact2" = "请留下您的QQ，邮箱，电话等联系方式";
+"a_m" = "上午";
+"p_m" = "下午";
+"Send" = "发送";
+"Feedback" = "用户反馈";
+"Close" = "关闭";
+"Your contact information" = "您的联系方式";
+"Pull down to refresh" = "下拉可以刷新...";
+"Loading" = "刷新中";
+
+//环信
+"search" = "搜索";
+"error" = "错误";
+"delete" = "删除";
+"copy" = "复制";
+"save" = "保存";
+
+"add" = "添加";
+"send" = "发送";
+"open" = "打开";
+"down" = "完成";
+"choose" = "选择";
+"accept" = "接受";
+"reject" = "拒绝";
+"retry" = "重试";
+"edit" = "编辑";
+
+"sendingApply" = "正在发送申请...";
+"acceptFail" = "接受失败";
+"rejectFail" = "拒绝失败";
+"refreshData" = "刷新数据...";
+"loadData" = "加载数据...";
+"saySomething" = "说点啥子吧";
+"searchResults" = "搜索结果";
+"doneWithCount" = "确定(%i)";
+"sureToDelete" = "请确定删除";
+"receiveCmd" = "有透传消息";
+"receiveMessage" = "您有一条新消息";
+"loginAtOtherDevice" = "你的账号已在其他地方登录";
+"loginUserRemoveFromServer" = "你的账号已被从服务器端移除";
+"appkeyError" = "appkey错误";
+
+//general
+"prompt" = "提示";
+"ok" = "确定";
+"cancel" = "取消";
+
+"receiveCmdMessage" = "透传消息";
+
+"setNickname" = "设置昵称";
+"customerChat" = "联系客服";
+"customerUser" = "IM服务号";
+"commonProblems" = "常见问题";
+"restart" = "重新启动";
+"restartInfo" = "配置信息需要重新启动才能生效";
+
+//app
+"AppName" = "客服Demo";
+
+//apns
+"apns.failToRegisterApns" = "注册推送失败";
+"apns.failToBindDeviceToken" = "消息推送与设备绑定失败";
+
+//login
+"login.beginAutoLogin" = "自动登录开始...";
+"login.endAutoLogin" = "自动登录结束...";
+"login.errorAutoLogin" = "自动登录失败.";
+
+//setting
+"setting.feedback" = "意见反馈";
+
+//title
+"title.customer" = "客服";
+"title.mall" = "商城";
+"title.setting" = "设置";
+"title.commodity" = "商品详情";
+"title.nickname" = "昵称";
+"title.satisfaction" = "满意度评价";
+
+//choice
+"choice.preSale" = "售前客服";
+"choice.afterSale" = "售后客服";
+
+//satisfaction
+"satisfaction.message" = "请对我的服务做出评价";
+"satisfaction.evaluate" = "立即评价";
+"satisfaction.evaluated" = "已评价";
+"satisfaction.nickname" = "客服昵称";
+"satisfaction.commit" = "提交";
+"satisfaction.alert" = "请先选择评星";
+
+//message
+"message.camera" = "相机";
+"message.image" = "图片";
+"message.location" = "位置";
+"message.voice" = "音频";
+"message.vidio" = "视频";
+"message.image1" = "[图片]";
+"message.location1" = "[位置]";
+"message.voice1" = "[音频]";
+"message.vidio1" = "[视频]";
+"message.beginReceiveOffine" = "开始接收离线消息";
+"message.endReceiveOffine" = "离线消息接收成功";
+"message.toolBar.inputPlaceHolder" = "输入新消息";
+"message.toolBar.record.upCancel" = " 手指上滑，取消发送 ";
+"message.toolBar.record.loosenCancel" = " 松开手指，取消发送 ";
+"message.toolBar.record.touch" = "按住说话";
+"message.toolBar.record.send" = "松开发送";
+
+"message.downloadingAudio" = "正在下载语音，稍后点击";
+"message.downloadingVideo" = "正在获取视频...";
+"message.videoFail" = "视频获取失败!";
+"message.downloadingImage" = "正在获取大图...";
+"message.imageFail" = "大图获取失败!";
+"message.thumImageFail" = "缩略图获取失败!";
+"message.simulatorNotSupportCamera" = "模拟器不支持拍照";
+"message.simulatorNotSupportVideo" = "模拟器不支持录像";
+"message.startRecordFail" = "开始录音失败";
+"message.noMessage" = "消息已经清空";
+
+//reconnection
+"reconnection.ongoing" = "正在重连中...";
+"reconnection.fail" = "重连失败，稍候将继续重连";
+"reconnection.success" = "重连成功！";
+
+//location
+"location.messageType" = "位置信息";
+"location.fail" = "定位失败";
+"location.ongoning" = "正在定位...";
+
+//NSDateCategory
+"NSDateCategory.text1" = "1分钟内";
+"NSDateCategory.text2" = "%.f分钟前";
+"NSDateCategory.text3" = "%.f小时前";
+"NSDateCategory.text4" = "%.f天前";
+"NSDateCategory.text5" = "M月d日";
+"NSDateCategory.text6" = "%.f年前";
+"NSDateCategory.text7" = "昨天 %@";
+"NSDateCategory.text8" = "昨天HH:mm";
+"NSDateCategory.text9" = "凌晨hh:mm";
+"NSDateCategory.text10" = "上午hh:mm";
+"NSDateCategory.text11" = "下午hh:mm";
+"NSDateCategory.text12" = "晚上hh:mm";
+"NSDateCategory.text13" = "昨天HH:mm";
+"NSDateCategory.text14" = "今天 %@";
+
+"transferToKf.fail" = "转人工客服请求失败，请确认连接状态！";
